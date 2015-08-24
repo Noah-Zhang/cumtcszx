@@ -3,14 +3,46 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 <style>
 	.error {color: #FF0000;}
     body{padding-bottom: 50px;}
 </style>
 </head>
 <body> 
-    
+   <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation"> 
+    <div class="container-fluid">
+      <div class="navbar-header">
+
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <a class="navbar-brand" href="index.html">首页</a>
+     </div>
+     
+     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="apply.php">申请<span class="sr-only">(current)</span></a></li>
+        <li ><a href="query.php">查询</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">了解更多 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">团委</a></li>
+            <li><a href="#">学生会</a></li>
+            <li><a href="#">青协</a></li>
+            <li><a href="#">新传</a></li>
+            <li><a href="#">心助</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">花海艺术团</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>   
     
   <?php
   // 定义变量并设置为空值
