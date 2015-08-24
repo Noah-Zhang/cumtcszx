@@ -206,8 +206,8 @@
     
   <hr class="divider">
   <footer>
-    <p class="pull-right"><a href="index.html">返回首页</a></p>
-    <p>©计算机学院新媒体工作室</p>
+    <p class="pull-right"><a href="index.html">返回首页&nbsp;&nbsp;&nbsp;&nbsp;</a></p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;©计算机学院新媒体工作室</p>
   </footer>
 
     
