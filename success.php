@@ -256,7 +256,13 @@
             </tbody>
             </table>
         </div>
-
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12">
+                 <button class="btn btn-block" type="button"><a href="query.php">继续申请</a></button>
+            </div>
+        </div>
+    </div>
     </div>
     <hr class="divider">
   	<footer>
